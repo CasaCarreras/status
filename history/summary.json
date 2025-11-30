@@ -70,5 +70,23 @@
     "timeMonth": 66,
     "timeYear": 66,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "VPN",
+    "url": "https://vpn.casa-carreras.es",
+    "icon": "https://icons.duckduckgo.com/ip3/vpn.casa-carreras.es.ico",
+    "slug": "vpn",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 418,
+    "timeDay": 418,
+    "timeWeek": 418,
+    "timeMonth": 418,
+    "timeYear": 418,
+    "dailyMinutesDown": {}
   }
 ]
