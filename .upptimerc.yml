@@ -1,7 +1,6 @@
 owner: casa-carreras
 repo: status
 
-# User agent personalizado para evitar bloqueos
 user-agent: Mozilla/5.0 (compatible; Status/1.0)
 
 sites:
@@ -22,6 +21,10 @@ sites:
     url: https://backup.casa-carreras.es
     maxResponseTime: 30000
 
+  - name: "VPN"
+    url: https://vpn.casa-carreras.es
+    maxResponseTime: 30000
+    
 scheduledMaintenances:
   - name: "Backup diario"
     description: "Los servicios pueden estar temporalmente no disponibles debido al backup automático."
@@ -43,11 +46,10 @@ status-website:
     - title: Sitio Web
       href: https://casa-carreras.es
 
-# Notificaciones
 assignees:
   - casacarreras
 
-# Personalización
+
 i18n:
   footer: "© 2025 Bellas Artes Casa Carreras"
   
